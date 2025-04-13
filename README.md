@@ -18,7 +18,7 @@ Le pipeline inclut :
 > Il **n’est pas encore finalisé** et peut contenir quelques coquilles, erreurs mineures ou ajustements en cours.
 
 👉 Consultez le document complet décrivant tout le processus et l'analyse des résultats ici :  
-[`Impact_du_Kernel_PCA_sur_la_classification_de_sentiments.pdf`](./Impact_du_Kernel_PCA_sur_la_classification_de_sentiments.pdf)
+[`Impact_du_Kernel_PCA_sur_la_classification_de_sentiments.pdf`](./Impact du Kernel PCA sur la classification de sentiments – Étude expérimentale.pdf)
 
 ---
 
