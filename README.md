@@ -1,25 +1,28 @@
 # Sentiment Analysis on IMDb Movie Reviews using Kernel PCA
 
-Ce projet explore l'effet de la réduction de dimension non linéaire par **Kernel PCA** sur les performances de modèles classiques de classification dans une tâche de **détection de sentiment** à partir de critiques de films IMDb.
-
-Le pipeline inclut :
-- Prétraitement linguistique complet (lemmatisation, stopwords, POS-tagging)
-- Vectorisation par **Bag-of-Words (CountVectorizer)** avec vocabulaire restreint
-- Réduction de dimension par **Kernel PCA avec noyau cosinus**
-- Évaluation de plusieurs modèles supervisés (KNN, LogReg, SVM)
-- Analyse de sensibilité au nombre de composantes principales
-- Comparaison avec les performances sans réduction de dimension
+This project investigates the impact of **nonlinear dimensionality reduction** via **Kernel PCA** on the performance of classic classification models in a sentiment analysis task using IMDb movie reviews.
 
 ---
 
-📘 **Remarque importante :**
+## Project Overview
 
-> Le PDF fourni ci-dessous constitue une **version de travail** du rapport expérimental.  
-> Il **n’est pas encore finalisé** et peut contenir quelques coquilles, erreurs mineures ou ajustements en cours.
+The pipeline includes:
 
-👉 Consultez le document complet décrivant tout le processus et l'analyse des résultats ici :  
-[`Impact_du_Kernel_PCA_sur_la_classification_de_sentiments.pdf`](./kernel_pca_sentiment_analysis.pdf
-)
+- Text preprocessing: tokenization, lemmatization, POS-tagging, stopword removal (using NLTK)
+- Vectorization using **Bag-of-Words** (`CountVectorizer`) with restricted vocabulary
+- Dimensionality reduction using **Kernel PCA** with a cosine kernel
+- Training and evaluation of multiple classifiers: K-Nearest Neighbors, Logistic Regression, SVM
+- Sensitivity analysis on the number of components
+- Comparison with models trained without dimensionality reduction and with classical PCA
+
+---
+
+## Full Report
+
+This work is part of a broader Master's thesis on Kernel PCA. The full methodology and experimental results are available in the PDF report (in french):
+
+[Master_Thesis.pdf](./Master_Thesis.pdf)  
+The IMDb sentiment classification experiment is detailed in **Section 4** of the document.
 
 ---
 
@@ -28,11 +31,16 @@ Le pipeline inclut :
 - [IMDb Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
 - [NLTK Documentation](https://www.nltk.org/)
 - [Scikit-learn](https://scikit-learn.org/)
-- [Kernel PCA (scikit-learn)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html)
+- [Kernel PCA (Scikit-learn)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html)
+
+---
 
 ## Author
 
-Developed by **Erwan Ouabdesselam** as part of my Master's thesis in Applied Mathematics, Université Paris-Dauphine, 2025.
+Developed by **Erwan Ouabdesselam**  
+Master’s in Applied Mathematics — Université Paris Dauphine, 2025
+
+---
 
 ## License
 
